@@ -6,5 +6,7 @@ jobs:
     steps:
       - name: Pring greating
         run: echo "Hello World!"
+      - name: Hostname check
+        run: date | hostname
       - name: Pring goodbye
         run: echo "All done! Goodbye =)"
